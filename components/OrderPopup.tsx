@@ -145,7 +145,7 @@ const OrderPopup: React.FC<OrderPopupProps> = () => {
           {/* Final CTA */}
           <button 
             onClick={handleSubmit}
-            className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-5 px-6 rounded-xl shadow-lg transform transition-transform active:scale-95 flex items-center justify-center gap-2"
+            className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-5 px-6 rounded-xl shadow-lg transform transition-transform active:scale-95 flex items-center justify-center gap-2 animate-pulse"
           >
             👉 QUIERO EL HECHIZO AHORA
           </button>
