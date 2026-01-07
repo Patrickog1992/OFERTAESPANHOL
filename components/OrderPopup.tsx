@@ -45,7 +45,7 @@ const OrderPopup: React.FC<OrderPopupProps> = () => {
         alert("Por favor, enciende la vela primero.");
         return;
     }
-    alert("¡Solicitud enviada!");
+    window.location.href = "https://go.centerpag.com/PPU38CQ5MLH";
   };
 
   return (
