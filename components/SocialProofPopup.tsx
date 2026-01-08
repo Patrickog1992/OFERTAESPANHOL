@@ -9,9 +9,9 @@ const names = [
 ];
 
 const cities = [
-  "Quito", "Guayaquil", "Cuenca", "Santo Domingo", "Machala", 
-  "Durán", "Manta", "Portoviejo", "Loja", "Ambato", 
-  "Esmeraldas", "Riobamba", "Ibarra", "Quevedo", "Latacunga"
+  "Ciudad de México", "Guadalajara", "Monterrey", "Puebla", "Tijuana", 
+  "León", "Ciudad Juárez", "Zapopan", "Mérida", "San Luis Potosí", 
+  "Querétaro", "Toluca", "Cancún", "Acapulco", "Chihuahua"
 ];
 
 const SocialProofPopup: React.FC = () => {
