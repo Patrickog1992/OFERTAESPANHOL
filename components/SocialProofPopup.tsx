@@ -8,21 +8,14 @@ const names = [
   "Carmen", "Rosa", "Jorge", "Mónica", "Ricardo"
 ];
 
-const cities = [
-  "Ciudad de México", "Guadalajara", "Monterrey", "Puebla", "Tijuana", 
-  "León", "Ciudad Juárez", "Zapopan", "Mérida", "San Luis Potosí", 
-  "Querétaro", "Toluca", "Cancún", "Acapulco", "Chihuahua"
-];
-
 const SocialProofPopup: React.FC = () => {
   const [visible, setVisible] = useState(false);
-  const [data, setData] = useState({ name: '', city: '' });
+  const [data, setData] = useState({ name: '' });
 
   useEffect(() => {
     const show = () => {
       const name = names[Math.floor(Math.random() * names.length)];
-      const city = cities[Math.floor(Math.random() * cities.length)];
-      setData({ name, city });
+      setData({ name });
       setVisible(true);
       
       // Hide after 5 seconds
@@ -62,7 +55,7 @@ const SocialProofPopup: React.FC = () => {
         </div>
         <div>
           <p className="text-xs font-bold text-gray-900 leading-tight">
-            {data.name} de {data.city}
+            {data.name}
           </p>
           <p className="text-[10px] text-green-700 font-medium mt-0.5">
             recibió el hechizo ✨
