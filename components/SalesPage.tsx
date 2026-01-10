@@ -469,7 +469,7 @@ const SalesPage: React.FC = () => {
           Pero, para mantener el sitio en funcionamiento, fue necesario cobrar un valor simbólico.
         </p>
 
-        <p className="text-2xl text-center font-bold text-pink-600 border-2 border-pink-600 p-4 rounded-lg inline-block w-full">
+        <p className="text-2xl text-center font-bold text-green-600 border-2 border-green-600 p-4 rounded-lg inline-block w-full">
           Solo $11,11 — un número sagrado — para las 1111 personas elegidas.
         </p>
 
@@ -512,7 +512,7 @@ const SalesPage: React.FC = () => {
           Cuando se alcance ese número, los rituales de bonificación serán retirados permanentemente.
         </p>
 
-        <p className="text-xl text-center font-bold text-pink-700">
+        <p className="text-xl text-center font-bold text-green-600">
             ✨ Por solo $11,11 hoy, puedes lanzar el hechizo que hará que cualquier persona te ame eternamente. ✨
         </p>
 
