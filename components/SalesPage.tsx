@@ -298,7 +298,7 @@ const SalesPage: React.FC = () => {
 
         <p>
           “Con tu permiso…”<br/>
-          “Quiero lanzar un hechizo que hará que él se DEVOTE a ti.”
+          “Quiero lanzar un hechizo que hará que él se entregue completamente a ti.”
         </p>
       </div>
 
