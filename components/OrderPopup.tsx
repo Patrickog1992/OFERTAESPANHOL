@@ -41,10 +41,7 @@ const OrderPopup: React.FC<OrderPopupProps> = () => {
   };
 
   const handleSubmit = () => {
-    if (!isLit) {
-        alert("Por favor, enciende la vela primero.");
-        return;
-    }
+    // Validation removed: User can proceed without interactions
     window.location.href = "https://go.centerpag.com/PPU38CQ5MLH";
   };
 
